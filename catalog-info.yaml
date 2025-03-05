@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "docnota"
-  description: "documentation for nota apps"
+  name: docnota
+  description: documentation for nota apps
   annotations:
-    github.com/project-slug: khantparthkumar/nota-doc
+    backstage.io/techdocs-ref: dir:.
 spec:
-  type: documentation
+  type: service
   lifecycle: experimental
-  owner: "group:default/backstage"
+  owner: khantparthkumar
